@@ -35,3 +35,132 @@
 
 .tb5_img{float: left;}
 
+.button {
+	position: relative;
+	left: 88px;
+  color: #666;
+  background-color: #EEE;
+  border-color: #FF9224;
+  font-weight: 300;
+  font-size: 16px;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  padding: 0 40px;
+  margin: 0;
+  display: inline-block;
+  appearance: none;
+  cursor: pointer;
+  border: none;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition-property: all;
+          transition-property: all;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  /*
+  * Disabled State
+  *
+  * The disabled state uses the class .disabled, is-disabled,
+  * and the form attribute disabled="disabled".
+  * The use of !important is only added because this is a state
+  * that must be applied to all buttons when in a disabled state.
+  */ }
+
+  .button-3d {
+  position: relative;
+  top: 0;
+  -webkit-box-shadow: 0 7px 0 #bbbbbb, 0 8px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 7px 0 #bbbbbb, 0 8px 3px rgba(0, 0, 0, 0.2); }
+  .button-3d:hover, .button-3d:focus {
+    -webkit-box-shadow: 0 7px 0 #bbbbbb, 0 8px 3px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 7px 0 #bbbbbb, 0 8px 3px rgba(0, 0, 0, 0.2); }
+  .button-3d:active, .button-3d.active, .button-3d.is-active {
+    top: 5px;
+    -webkit-transition-property: all;
+            transition-property: all;
+    -webkit-transition-duration: .15s;
+            transition-duration: .15s;
+    -webkit-box-shadow: 0 2px 0 #bbbbbb, 0 3px 3px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 2px 0 #bbbbbb, 0 3px 3px rgba(0, 0, 0, 0.2); }
+
+.button-box {
+  border-radius: 10px; }
+
+.button-jumbo {
+  font-size: 12px;
+  height: 30px;
+  line-height: 10px;
+  padding: 0 20px;
+}
+
+#addwin form, #editwin form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -360px;
+    margin-top: -234px;
+    padding: 40px 80px;
+    background-color: #fff;
+}
+#addwin, #editwin {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+}
+form.logform a.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+#addwin h2, #editwin h2 {
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+form.logform h2 {
+    height: 64px;
+    padding-left: 115px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 64px;
+    color: #6a4a1a;
+    background: url(../images/member.png) 45px center no-repeat;
+}
+#addwin table tr td:nth-child(1), #editwin table tr td:nth-child(1) {
+    width: 80px;
+    display: inline-block;
+    line-height: 44px;
+}
+form.logform input {
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 255px;
+    padding: 0 20px;
+    font-family: 'Microsoft YaHei';
+    font-size: 12px;
+    line-height: 30px;
+    border: 1px solid #ddd;
+    color: #aaa;
+}
+#addwin table tr td small, #addwin table tr td span, #editwin table tr td small, #editwin table tr td span {
+    display: inline-block;
+    line-height: 44px;
+    color: #aaa;
+    vertical-align: top;
+}
+#user_formadd, #user_formedit {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #aaa;
+    border: none;
+    cursor: pointer;
+}
