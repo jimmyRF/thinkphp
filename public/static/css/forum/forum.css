@@ -105,6 +105,8 @@
     margin-top: -234px;
     padding: 40px 80px;
     background-color: #fff;
+/*    width: 600px;
+    height: 500px;*/
 }
 #addwin, #editwin {
     position: fixed;
