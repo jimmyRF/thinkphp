@@ -46,7 +46,28 @@ class ForumController extends Controller
             $list[$i]['update_time'] = date('Y-m-d H-i-s', $list[$i]['update_time']); 
         }        
 
+        $this->assign('id',$id);
         $this->assign('list',$list);
         return view();
+    }
+    public function create($id='')
+    {
+
+        if (isset($_COOKIE['?ext_user'])) {
+
+            //默认值设置
+            $item = Forum::get($id);
+            if ($item['forum_aid'] == '') {
+                echo "false1";
+                exit(); 
+            }else{
+                echo "ok";
+                exit();  
+            }        
+        }else{
+            echo "false2";;
+            exit(); 
+        }
+
     }
 }

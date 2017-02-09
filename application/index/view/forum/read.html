@@ -1,12 +1,13 @@
 {include file="index/header" /}
-
+    
 <section id="content">
     <div class="sc-position">
     <div class="wrap" style="position: relative;left: -835px;">
     当前位置 : <a href="{:Url('index/')}" target="_parent">首页</a> &gt; <a href="{:Url('forum/index')}" target="_parent">论坛</a> &gt; <a href="#" target="_parent">讨论区</a>
     </div>
     </div>
-    <div style="position: relative;left: 105px;">发帖</div>   
+    <button id="btn_submit" type="button" class="button button-3d button-box button-jumbo">发帖</button>
+   <!--  <div style="position: relative;left: 105px;">发帖</div>    -->
   <div>
   <div class="category_101">
     <p style="position: relative;left: 10px;">全部主题</p>
@@ -40,6 +41,47 @@
 </section>
 <!--/ CONTENT -->
 
-<div style="position: relative;top: 53px;">
+<div id="addwin" style="display:none;">
+ <form name='user_form_add' method='POST' action="carbuyactionadd.php" class="logform addwin-form">
+ <a class="win-cl close"  href="javascript:closeadd();"><img src="__IMAGE__/close.png"/ ></a>
+      <input type="hidden" name="fmdo" value="login">
+      <input type="hidden" name="dopost" value="login">
+        <h2> 发表帖子</h2>
+      <table >
+          <tr>
+            <td>选择主题</td>
+            <td><input name="" id=""   type="text"  size="50" />
+              <span class="red">*</span><small>不能为空!</small></td>
+          </tr>
+         <tr>
+
+          </tr>
+      </table>
+    </form>
+    </div>
+
+<script type="text/javascript">
+  $('#btn_submit').click(function(){
+    var id = '{$id}';
+    $.ajax({
+           type: "post",
+           url: "{:Url('forum/create')}",
+           data: {id:'{$id}'},
+           success: function(data){
+                if (data == 'ok') {
+                    openadd();
+                }
+            }
+         });
+  });
+function openadd(){
+   document.getElementById("addwin").style.display="";
+}
+function closeadd(){
+   document.getElementById("addwin").style.display="none";
+}
+</script>
+
+<div style="position: relative;top: 10px;">
 {include file="index/footer" /}
 </div>
