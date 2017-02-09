@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>{wc:if isset($title)}{wc:$title}{wc:else}{wc:fun:_cfg("web_name")}{wc:if:end}</title>
+<meta name="keywords" content="{wc:if isset($keywords)}{wc:$keywords}{wc:else}{wc:fun:_cfg("web_key")}{wc:if:end}" />
+<meta name="description" content="{wc:if isset($description)}{wc:$description}{wc:else}{wc:fun:_cfg("web_des")}{wc:if:end}" />
+<meta name="laoniu-site-verification" content="6ae0f173d3e55f7f7af5ee3f95ff9a0" />
+<meta name="baidu-site-verification" content="6NnrIwnH30" />
+<!-- <link type="text/css" rel="stylesheet" href="{WATH_AWAY}/css/bootstrap.css"> -->
+<link type="text/css" rel="stylesheet" href="{WATH_AWAY}/css/news.css">
+<link rel="stylesheet" type="text/css" href="{WATH_AWAY}/css/pt-main.css"/>
+<link rel="stylesheet" href="{WATH_AWAY}/images/css/style.css" />
+<!--新的尾部-->
+<link rel="stylesheet" type="text/css" href="{WATH_AWAY}/css/newfooter.css"/>
+<!--新的尾部end-->
+<script type="text/javascript" src="{WATH_AWAY}/js/jQuery.js"></script>
+<script type="text/javascript" src="{WATH_AWAY}/js/layer/layer.js"></script>
+<script type="text/javascript" src="{WATH_AWAY}/js/jquery.cookie.js"></script>
+
+<style>
+    .tab_foot li{margin-right: 25px;margin-left: 25px;}
+</style>
+
+<base target="_blank" />
+<meta name="laoniu-site-verification" content="6ae0f173d3e55f7f7af5ee3f95ff9a0" />
+<link href="{WATH_AWAY}/css/zzsc.css" rel="stylesheet" type="text/css" >
+
+
+</head>
+<body>
+
+<!--头部开始-->
+
+<link rel="stylesheet" type="text/css" href="{WATH_AWAY}/css/add-main.css"/>
+
+<div id="header">
+    <div class="top">
+        <div class="main_wrap">
+            <div class="fl"  >
+                <span style="position:relative; bottom:8px;">你好，欢迎光临Treasonous Rosefinch！</span>
+                                <!--<a href="/welcome/login" rel="nofollow">登录</a><a href="/welcome/register" rel="nofollow">注册</a><a href="/welcome/forget_password" rel="nofollow">忘记密码</a>-->
+                            </div>
+            
+            <div class="fr" >
+                <div class="rtop" style="position:relative; bottom:25px;">
+                    <div class="xlb">
+                        <a href="{WEB_PATH}/login" rel="nofollow" id="gy" target="_parent">登录</a>
+                    </div>
+                    <div class="xlb">
+                        <a href="{WEB_PATH}/register" rel="nofollow" id="jt" target="_parent">免费注册</a>
+                    </div>
+                    <a href="" class="wx" rel="nofollow" id="weixin" >微信关注</a>
+                    </a></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!--top end-->
+    <div class="clearfix"></div>
+    <div class="main_wrap">
+        <div class="top-pad">
+                    <div id="tem_top_gw">
+                <div class="JQ-content-box" style="height:50px; ">
+                   
+                </div>
+            </div>
+        </div>
+                    <div class="main_wrap" style="position:relative; top:-50px;">
+
+                <div class="ui-logo fl">
+                    <a href="/"><img class="Rosefinch-logo" src="{WATH_AWAY}/image/Rosefinch.png" alt="Treasonous Rosefinch" /></a>
+                    <div class="logo-title">
+                        <h3>Treasonous Rosefinch</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="ui-header-search fl" >
+                <form data-process="1" id="j-header-searchform" action="" method="post" class="ui-form-search" >
+                <div class="input-append" style="position: relative; top: -130px;left: 10px;"  >
+                <input data-type="service" name="key" value="" id="j-header-kw" type="text" class="search-query" autocomplete="off" disableautocomplete="" autocorrect="off" onwebkitspeechchange="this.form.submit();" lang="zh-CN" x-webkit-grammar="builtin:search" x-webkit-speech="true"><button type="submit" id="j-header-search-btn" class="ui-btn ui-btn-inverse yahei">搜索</button>
+                </div><input type="hidden" name="type" id="j_header_search_type" value="找服务"></form>
+            </div>
+            <div class="clearfix"></div>
+    </div>
+    <div class="row bor">
+        <div id="hang">
+            
+            <div id="list">
+                <ul>
+                    <li><a href="{G_WEB_PATH}"> 首页</a><span>|</span> </li>
+                    <li><a href="javascript:nownone();"> 服务</a><span>|</span> </li>
+                    <li><a href="javascript:nownone();"> 产品</a> <span>|</span> </li>
+                    <li><a href="javascript:nownone();"> 商城</a><span>|</span> </li>
+                    <li><a href="javascript:nownone();"> 关于Treasonous Rosefinch</a><span>|</span> </li>
+                    <li><a href="javascript:nownone();"> 会员中心</a> <span>|</span> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--end-->
+<!-- <div class="shouye-img"><img class="shouye-imgimg" src="{WATH_AWAY}/image/shouye.png" /></div> -->
+<!--头部结束-->
+<!-- <script>//鼠标事件
+
+var gy=document.getElementById('gy');
+var gy1=document.getElementById('gy1');
+ gy.onmouseover=function(){
+    gy1.style.display='block';
+    }
+gy.onmouseover=function(){
+    gy1.style.display='block';
+}
+gy.onmouseout=function(){
+    gy1.style.display='none';
+}
+gy1.onmouseover=function(){
+    gy1.style.display='block';
+}
+gy1.onmouseout=function(){
+    gy1.style.display='none';
+}
+
+</script> -->
+<script type="text/javascript">
+    function nownone(){
+        layer.msg('............未设置...........');
+    }
+</script>

@@ -1,0 +1,265 @@
+.shop_process ul.process {
+    width: 1200px;
+    height: 30px;
+    float: left;
+    margin: 15px 0;
+    background: #d8e8f9;
+}
+.shop_process ul.process li {
+    text-align: center;
+    float: left;
+    line-height: 30px;
+    font-size: 12px;
+}
+.shop_process ul.process li.first_step {
+    color: #fff;
+    width: 250px;
+    background: #e65e2e;
+    font-weight: bold;
+}
+.shop_process ul.process li.secend_step {
+    width: 250px;
+}
+.shop_process ul.process li.third_step {
+    width: 250px;
+}
+
+.shop_process .submitted ul.order li.top span.goods, .shop_process .submitted ul.order li.top span.xj {
+    width: 145px;
+    display: block;
+    float: left;
+}
+.shop_process {
+    width: 1200px;
+    height: auto;
+    color: #666;
+    margin: 0 auto;
+}
+.shop_process ul.process li.arrow_1 {
+    background: url(/thinkphp/public/static/images/shop_process.png) no-repeat -205px 0;
+}
+.shop_process ul.process li.arrow_1, .shop_process ul.process li.arrow_2 {
+    width: 27px;
+    height: 30px;
+    overflow: hidden;
+    display: block;
+}
+.shop_process ul.process li.arrow_2 {
+    background: url(/thinkphp/public/static/images/shop_process.png) no-repeat -240px 0;
+}
+
+.shop_process ul.process li.arrow_1, .shop_process ul.process li.arrow_2 {
+    width: 27px;
+    height: 30px;
+    overflow: hidden;
+    display: block;
+}
+.shop_process .submitted {
+    width: 1200px;
+    clear: both;
+    position: relative;
+    clear: both;
+}
+.shop_process .submitted ul.order {
+    width: 1198px;
+    min-height: 130px;
+    border: 1px solid #dfdfdf;
+    clear: both;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll: no;
+}
+.shop_process .submitted ul.order li.top {
+    width: 1198px;
+    height: 35px;
+    line-height: 35px;
+    color: #555;
+    background: url(/thinkphp/public/static/images/process_top.png);
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.shop_process .submitted ul.order li {
+    width: 1198px;
+    float: left;
+}
+.shop_process .submitted ul.order li.top span.goods, .shop_process .submitted ul.order li.top span.xj {
+    width: 145px;
+    display: block;
+    float: left;
+}
+.shop_process .submitted ul.order li.top span.name {
+    width: 218px;
+    height: 30px;
+    display: block;
+    float: left;
+    padding: 0 20px;
+}
+.shop_process .submitted ul.order li span {
+    text-align: center;
+}
+.shop_process .submitted ul.order li.top span.goods, .shop_process .submitted ul.order li.top span.xj {
+    width: 145px;
+    display: block;
+    float: left;
+}
+.shop_process .submitted ul.order li span.do {
+    padding-left: 20px;
+}
+.shop_process .submitted ul.order li.end {
+    width: 1198px;
+    min-height: 90px;
+    border-top: 1px solid #e6e7e8;
+    margin: 0 0 12px 0;
+    overflow: hidden;
+}
+.shop_process .submitted ul.order li.end span.goods {
+    width: 100px;
+    height: 72px;
+    display: block;
+    float: left;
+}
+.shop_process .submitted ul.order li.end span.name {
+    width: 282px;
+    display: block;
+    float: left;
+    overflow: hidden;
+    font-size: 14px;
+    margin: 12px auto 0 auto;
+    padding: 0 10px;
+}
+.shop_process .submitted ul.order li.end span.name p {
+    font-size: 12px;
+    text-align: left;
+    line-height: 25px;
+}
+.shop_process .submitted ul.order li span {
+    text-align: center;
+}
+li.end span.money, li.end span.all, li.end span.moneys, li.end span.xj {
+    line-height: 90px;
+}
+.shop_process .submitted ul.order li.end span.num {
+    position: relative;
+    line-height: 90px;
+}
+li.end span.xj {
+    width: 150px;
+}
+.shop_process .submitted ul.order li span.do {
+    padding-left: 20px;
+}
+.shop_process .submitted ul.order li.ts {
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid #dfdfdf;
+    background: #f8f8f8;
+}
+.shop_process h5 {
+    width: 1200px;
+    height: 34px;
+    padding: 15px 0;
+}
+.shop_process .submitted ul.order li span img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin:  0 auto;
+    border: 1px solid #ccc;
+}
+.shop_process .submitted ul.order li.end span.name a {
+    width: 100%;
+    height: 50px;
+    line-height: 25px;
+    display: block;
+    float: left;
+    overflow: hidden;
+    font-size: 12px;
+    text-align: left;
+    color: #0082f0;
+}
+.shop_process .submitted ul.order li span.color {
+    color: #f00;
+}
+.shop_process .submitted ul.order li span.num, span.money, span.all, span.moneys, span.xj {
+    width: 170px;
+    display: block;
+    float: left;
+}
+.shop_process .submitted ul.order li.end span.do a {
+    width: 26px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    display: block;
+    float: left;
+    margin: 36px 0 0 10px;
+}
+dl.add {
+    height: 29px;
+    padding: 25px 0 0 70px;
+    line-height: 29px;
+}
+dl.add dd a.jia {
+    display: block;
+    background: url(/thinkphp/public/static/images/add.png) 0 0;
+    width: 13px;
+    height: 14px;
+}
+dl.add dd a.jian {
+    display: block;
+    background: url(/thinkphp/public/static/images/add.png) 0 13px;
+    width: 13px;
+    height: 13px;
+    margin-top: 1px;
+}
+dl.add dd input.amount {
+    width: 42px;
+    height: 26px;
+    padding: 0 3px 0 5px;
+    line-height: 25px\9;
+    background: #fdf2d9;
+    border: #d8d8d8 1px solid;
+    color: #333;
+    font-family: Arial,Helvetica,sans-serif;
+}
+dl.add dd {
+    float: left;
+    margin-right: 1px;
+}
+dl.add dd {
+    float: left;
+    margin-right: 1px;
+}
+.shop_process .submitted ul.order li.ts p.right {
+    width: 400px;
+    float: right;
+    text-align: right;
+    padding: 0 20px 0 0;
+}
+.shop_process .submitted ul.order li.ts p.right span {
+    font-size: 18px;
+    font-family: arial;
+    color: #db3752;
+    padding: 0 5px;
+}
+.shop_process h5 a {
+    width: 144px;
+    height: 44px;
+    display: block;
+    background: url(/thinkphp/public/static/images/shop_process.png) no-repeat 0 -461px;
+    float: left;
+    margin-left: 830px;
+    _margin-left: 330px;
+}
+.shop_process h5 input {
+    width: 165px;
+    height: 45px;
+    display: block;
+    border: none;
+    color: #d2b080;
+    background: url(/thinkphp/public/static/images/shop_process.png) no-repeat 0 -35px;
+    cursor: pointer;
+    float: right;
+}
+
+

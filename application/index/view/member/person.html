@@ -1,0 +1,71 @@
+﻿{include file="index/header" /}
+
+<div class="main person-data bgc-eee">
+  <div class="sc-position">
+    <div class="wrap" style="position: relative;left: -725px;">
+    当前位置 : <a href="{:Url('index/')}" target="_parent">首页</a> &gt; <a href="{:Url('index/member/changepsw')}" target="_parent">会员中心</a> &gt; <a href="#" target="_parent">个人资料</a>
+    </div>
+  </div>
+  <div  class="person-content wrap bgc-fff">
+    <div class="fl person-left">
+      <ul>
+      <li class="icon1">
+        <a href="#" target="_parent" class="on">个人资料</a><br>
+        <a href="{:Url('index/member/changepsw')}" target="_parent">修改密码</a><br>
+      </li>
+      <li class="icon2">
+        <a href="" target="_parent">我的订单</a><br>
+      </li>
+      <li class="icon3">
+        <a href="" target="_parent">我的发表</a><br>
+        <a href="" target="_parent">我的评论</a><br>
+
+      </li>
+      </ul>
+    </div>
+    <div class="person-detial-right">
+      <form action="addperson" method="post" enctype="multipart/form-data" name="form2" onsubmit="return checkSubmit();" class="logform" id="addperson" target="_parent">
+        <table>
+          <tr >
+            <td>
+            <span class="spansex">性别：</span>
+            <input  name="sex" type="radio"  value="男"   /><span style="line-height: 70px;">男</span>
+            <input name="sex" type="radio"  value="女"   /><span>女</span>
+            <input name="sex" type="radio"  value="保密"   /><span>保密</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+            <span class="span">姓名：</span>
+            <input type="text" id="nickname" name="nickname" /></td>
+          </tr>
+          <tr>
+            <td>
+            <span class="span">地址：</span>
+            <input type="text" name="address" id="address" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+            <span class="span">爱好：</span>
+            <input type="text" name="likes" id="likes"   />
+            </td>
+          </tr>
+          <tr>
+            <td>
+            <span class="span">签名：</span>
+            <input type="text" name="qianming" id="qianming"   />
+            </td>
+          </tr>
+          <tr>
+             <td><input type="submit" id="btnadd" value="更新个人资料"></td>
+          </tr>
+        </table>
+      </form>
+      <!--主操作区域 -->
+    </div>
+  </div>
+</div>
+
+
+{include file="index/footer" /}

@@ -1,0 +1,62 @@
+
+<!-- saved from url=(0055)http://www.cddgg.net/static/newfooter/css/newfooter.css -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=GBK"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">/* CSS Document */
+/*鍏叡鏍峰紡鍖&#65533;*/
+*{padding:0; margin:0 auto;}
+img{border:0;}
+ul,li{list-style-type:none;}
+a{text-decoration:none;}
+a:hover{cursor:pointer}
+p{line-height:24px; color:#666;}
+body{font-family:"寰蒋闆呴粦",Arial, Helvetica, sans-serif; padding:0; margin:0 auto; font-size:12px;}
+.main_wrap{width:1200px; margin:0 auto; height:auto;}
+.fl{float:left;}
+.fr{float:right;}
+.clear{clear:both;}
+#header , #container , #footer{margin:0 auto; height:auto;}
+.f14{font-size:14px;}
+.f16{font-size:16px;}
+/*鍏叡鏍峰紡鍖&#65533;*/
+.partner { background-color:#115ec0; width:100%; height:395px; 
+}
+#ten_footer .ico{background:url(../img/fb_ico.png) no-repeat;}
+#ten_footer{background-color:#4a4e53;}
+#ten_footer .footer_box1{background-color:#4a4e53; width:100%; height:110px;}
+#ten_footer .box_width{width:1200px; height:auto; margin:0 auto;}
+#ten_footer .box_width .left{width:16%; float:left; overflow:hidden; padding:1.5% 0; margin-left:0;}
+#ten_footer .box_width .left .img{ background-position:0 0; width:105px; height:46px; display:inline-block;}
+#ten_footer .box_width .left p{color:#fff;}
+#ten_footer .box_width .right{overflow:hidden; width:84%; float:right; margin-right:0}
+#ten_footer .box_width .right li{float:left; width:14.2%; padding:4.5% 0 0 0;}
+#ten_footer .box_width .right li h3{color:#ccc; font-size:14px;}
+#ten_footer .box_width .right li p{color:#ccc; font-size:13px; font-family:"Tahoma"; }
+#ten_footer .footer_box2 .title{padding:15px 0 0 0; clear:left;}
+#ten_footer .footer_box2 .title h3{position:relative;  display:inline-block; background-color:#3b3e42; line-height:30px; height:30px; padding:0 12px; font-size:13px; color:#fff;} 
+#ten_footer .footer_box2 .title h3 .sbtn{display:inline-block; overflow:hidden; width:0; height:0; vertical-align:middle; margin:0 0 0 5px; border:5px solid transparent; border-top-color:#fff; border-top-width:7px;}
+#ten_footer .type_list{overflow:hidden; padding:1.5% 0; width:100%}
+#ten_footer .type_list li{float:left; width:16.6%; margin-bottom:24px;}
+#ten_footer .type_list li h4{font-size:14px; color:#ccc; margin-bottom:8px;}
+#ten_footer .type_list li .info{width:84%;}
+#ten_footer .type_list li .info .abox{overflow:hidden;}
+#ten_footer .type_list li .info .abox a{display:block; float:left; width:50%; color:#ccc; line-height:24px;}
+#ten_footer .footer_box2 .bom_txt{border-top:1px solid #ccc; width:1100px; margin-left:3%; float:left; overflow:hidden; padding:2% 0}
+#ten_footer .footer_box2 .bom_txt .left{width:12%; padding:0}
+#ten_footer .footer_box2 .bom_txt .left li{ line-height:24px; margin-bottom:5px;}
+#ten_footer .footer_box2 .bom_txt .left li a{color:#fff; font-size:14px;}
+#ten_footer .footer_box2 .bom_txt .left li a span{ vertical-align:middle; margin-right:5px;display:inline-block; width:22px; height:22px;}
+#ten_footer .footer_box2 .bom_txt .left li a .img1{background-position:0 -52px; position:static;}
+#ten_footer .footer_box2 .bom_txt .left li a .img2{background-position:-28px -52px; margin:0;}
+#ten_footer .footer_box2 .bom_txt .left li a .img3{background-position:-56px -52px;}
+#ten_footer .footer_box2 .bom_txt .cat{float:left; width:22%;}
+#ten_footer .footer_box2 .bom_txt .cat p{width:103px; height:121px; float:left}
+#ten_footer .footer_box2 .bom_txt .cat .img1{background-position:-122px 0; position:static;}
+#ten_footer .footer_box2 .bom_txt .cat .img2{background-position:-233px 0; float:right; margin-top:0;}
+#ten_footer .footer_box2 .bom_txt .right{float:right; width:62%;}
+#ten_footer .footer_box2 .bom_txt .right li{width:31%; margin-right:2%; padding:0; float:left;}
+#ten_footer .footer_box2 .bom_txt .right li .top{overflow:hidden; margin-bottom:8px}
+#ten_footer .footer_box2 .bom_txt .right li .top p{display:inline-block;font-size:14px; color:#fff; font-family:"寰蒋闆呴粦";}
+#ten_footer .footer_box2 .bom_txt .right li .top .num1{margin-left:10px;}
+#ten_footer .footer_box2 .bom_txt .right li .top p .img{width:16px; height:16px; display:inline-block; vertical-align:middle; margin-right:4px; background-position:-84px -52px;}
+#ten_footer .footer_box2 .bom_txt .right li p.address{font-family:"寰蒋闆呴粦"; line-height:24px; font-size:12px;} 
+#ten_footer .footer_box2 .bom_txt .right li p.address .img2{width:16px; height:16px; background-position:-105px -52px; display:inline-block; vertical-align:middle; margin-right:2px; margin-top:0;}
+#ten_footer .bq{text-align:center; color:#ccc; font-size:13px; padding:0 0 20px 0;}</pre><div class="_bd_ext_tip" style="visibility: hidden;"><span class="_bd_ext_search">百度一下</span><span class="_bd_ext_open">打开链接</span><span class="_bd_ext_copy">复制</span></div></body></html>

@@ -1,0 +1,47 @@
+﻿{include file="index/header" /}
+
+<div id="user-index" class="main"> 
+<div class="sc-position">
+      <div class="wrap" style="position: relative;left: -725px;">
+        当前位置 : <a href="{:Url('index/')}" target="_parent">首页</a> &gt; <a href="#" target="_parent">会员中心</a> 
+      </div>
+    </div>
+<div class="unser-content wrap bgc-fff">
+    <div class="user-text">
+      <div class="pic fl">
+         <a href="">
+          <img src="__IMAGE__/touxiang.jpg" width="100" height="100" alt="您的形象"/>
+          <span>更换头像</span>
+         </a> 
+          
+      </div>
+      <div class="user-id fl">
+          <h2><span>{$ext_user}</span></h2>
+          <div class="jb">
+            <p>会员级别：</p>
+          </div>
+          <li class="sign" style="display:inline; ">积分</li>
+          <li class="fl"><a href="" target="_self">马上签到</a></li>
+      </div>
+  </div>
+  <div class="user-btn">
+  <span class="icon"></span>
+    <ul>
+      <li class="icon1">
+        <a href="{:Url('index/member/person')}" target="_parent">个人资料</a><br>
+        <a href="{:Url('index/member/changepsw')}" target="_parent">修改密码</a><br>
+      </li>
+      <li class="icon2">
+        <a href="" target="_parent">我的订单</a><br>
+      </li>
+      <li class="icon3">
+        <a href="" target="_parent">我的发表</a><br>
+        <a href="" target="_parent">我的评论</a><br>
+
+      </li>
+    </ul>
+  </div>   
+  </div>
+</div>
+
+{include file="index/footer" /}

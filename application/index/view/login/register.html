@@ -1,0 +1,67 @@
+{include file="index/header" /}
+
+<link rel="stylesheet" type="text/css" href="__CSS__/registerstyle.css" />
+
+<script type="text/javascript" src="__JS__/register/jquery.i18n.properties-1.0.9.js" ></script>
+<script type="text/javascript" src="__JS__/register/jquery-ui-1.10.3.custom.js"></script>
+<script type="text/javascript" src="__JS__/register/jquery.validate.js"></script>
+<script type="text/javascript" src="__JS__/register/md5.js"></script>
+<script type="text/javascript" src="__JS__/register/page_regist.js?lang=zh"></script> 
+<div class="loginbox registbox">
+    <div class="login-content reg-content">
+        <div class="loginbox-title">
+            <h3>欢迎注册</h3>
+        </div>
+        <form id="signupForm" method="post">
+        <div class="login-error"></div>
+        <div class="row">
+            <label class="field" for="name">账号</label>
+            <input type="text" value="" class="input-text-user noPic input-click" name="name" id="name">
+        </div>
+        <div class="row">
+            <label class="field" for="password">密码</label>
+            <input type="password" value="" class="input-text-password noPic input-click" name="password" id="password">
+        </div>
+        <div class="row">
+            <label class="field" for="passwordAgain">确认密码</label>
+            <input type="password" value="" class="input-text-password noPic input-click" name="passwordAgain" id="passwordAgain">
+        </div>
+        <div class="row">
+            <label class="field" for="tel">手机号码</label>
+            <input type="text" value="" class="input-text-user noPic input-click" name="tel" id="tel">
+        </div>
+        <div class="row">
+            <label class="field" for="email">邮箱</label>
+            <input type="text" value="" class="input-text-user noPic input-click" name="email" id="email">
+        </div>
+        <div class="row">
+            <label class="field" for="qq">QQ</label>
+            <input type="text" value="" class="input-text-user noPic input-click" name="qq" id="qq">
+        </div>
+        <div class="row tips">
+            <input type="checkbox" id="checkBox" name="checkBox" checked="checked">
+            <label>
+            我已阅读并同意
+            <a href="#" target="_blank">隐私政策、服务条款</a>
+            </label>
+        </div>
+        <div class="row btnArea">
+            <a class="login-btn" id="submit">注册</a>
+        </div>
+        </form>
+    </div>
+    <div class="go-regist">
+        已有帐号,请<a href="{:Url('index/login/login')}" class="link" target="_parent">登录</a>
+        <div>您可用其他方式注册：</div>
+        <div><img src="__IMAGE__/qq.png"/></div>
+        <div ><img style="width: 100px;height: 58px;position: relative;top: 20px;、" src="__IMAGE__/wechat.png"/>使用微信登录</div>
+    </div>
+</div>
+<div class="loading">
+    <div class="mask">
+        <div class="loading-img">
+        <img src="__IMAGE__/loading.gif" width="31" height="31">
+        </div>
+    </div>
+</div>
+{include file="index/footer" /}

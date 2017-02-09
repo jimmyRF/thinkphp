@@ -1,0 +1,104 @@
+<!--底部开始-->
+<div id="ten_footer">
+        <div class="footer_box1">
+            <div class="box_width">
+                <div class="left">
+                    <br/><img style="height: 60px;width: 70px;position: relative;left: 50px;top: -10px;" src="{WATH_AWAY}/image/Rosefinch.png">
+                    <p style="position: relative;left: 11px;top: -10px;">Treasonous Rosefinch</p>
+                </div>
+                <div>
+                <ul class="right">
+                    <li><a class="info" href="javascript:nownone();"><h3>关于我们</h3><p>About us</p></a></li>
+                    <li ><a class="info" href="javascript:nownone();"><h3  style="position:relative; right:20px;">服务产品</h3><p style="position:relative; right:20px;">Service</p></a></li>
+                    <li><a class="info" href="javascript:nownone();"><h3 style="position:relative; right:40px;">集团动态</h3><p style="position:relative; right:40px;">News</p></a></li>
+                    <li><a class="info" href="javascript:nownone();"><h3  style="position:relative; right:60px;">人才招聘</h3><p  style="position:relative; right:60px;">Recruitment</p></a></li>
+                    <li><a class="info" href="javascript:nownone();"><h3  style="position:relative; right:80px;">商务合作</h3><p style="position:relative; right:80px;">Consultant</p></a></li>
+                    <li><a class="info" onclick="nownone();"><h3  style="position:relative; right:100px;">在线咨询</h3><p style="position:relative; right:100px;">Consultation</p></a></li>
+                    <li><a class="info" onclick="nownone();"><h3  style="position:relative; right:120px;">联系我们</h3><p style="position:relative; right:120px;">Contact</p></a></li>
+                </ul>
+                </div>
+                </div></div></div>
+ 
+<!--底部结束-->
+
+
+<style type="text/css">
+    h2 {
+        margin: 100px 0 0 0;
+        color: #eb5a3d;
+        margin: auto;
+    }
+
+    .modal p:hover {
+        cursor: pointer;
+    }
+
+    .overlay {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        /*background-color:rgba(0,0,0,.5);*/
+        background:rgba(0, 0, 0, 0.5) none repeat scroll 0 0 !important;/*实现FF背景透明，文字不透明*/
+        filter:Alpha(opacity=50);
+        background:#000000;/*实现IE背景透明*/
+    }
+
+    .modal {
+        display: block;
+        overflow: auto;
+        z-index: 1001;
+        position: absolute;
+        width:848px;
+        min-height:460px;
+        top:50%;
+        left:50%;
+        margin-left:-424px;
+        margin-top:-230px;
+    }
+
+    .modalLink{
+        width: 140px;
+        height: 80px;
+        position: relative;
+        z-index: 1000;
+        display: block;
+        position: fixed;
+        /*left: 100px;*/
+        top:20%;
+        /*bottom:100px;*/
+        /*right:200px;*/
+
+    }
+</style>
+
+
+<script>
+    $(".firm-nav").removeClass("navPull");
+    $('.centerUp').hide();
+    $('.centerUp .modalLink img').click(function(){
+        $('.centerUp').hide();
+        $('#modal1').stop().fadeIn(900);
+        $('.overlay').stop().slideDown(1000);
+    })
+    $('.closeBtn').click(function(){
+        $('#modal1').stop().fadeOut(900);
+        $('.overlay').stop().slideUp(1000);
+        $('.centerUp').show(1000);
+    })
+
+    var i=1;
+    $('.Ranking-list li').each(function(){
+        $(this).find('i').text(i);
+        i++;
+    });
+</script>
+
+<!-- cnzz -->
+
+
+</body>
+</html>

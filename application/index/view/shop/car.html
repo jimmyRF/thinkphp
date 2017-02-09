@@ -1,0 +1,71 @@
+﻿{include file="index/header" /}
+<link type="text/css" rel="stylesheet" href="__CSS__/car.css">
+<div id="container" >
+  <div class="main sc-pro-list">
+    <div class="sc-position">
+      <div class="wrap" style="position: relative;left: 5px;">
+      当前位置 : <a href="{:Url('index/')}" target="_parent">首页</a> &gt; <a href="{:Url('shop/index')}" target="_parent">商城</a> &gt; <a href="#" target="_parent">购物车</a>
+      </div>
+    </div>
+        <div class="shop_process">
+          <ul class="process">
+            <li class="first_step">第一步：提交订单</li>
+            <li class="arrow_1"></li>
+            <li class="secend_step">第二步：订单支付</li>
+            <li class="arrow_2"></li>
+            <li class="third_step">第三步：支付成功</li>
+          </ul>
+          <div class="i_tips"></div>
+          <div class="submitted">
+            <ul class="order">
+              <li class="top">
+                <span class="goods">商品</span>
+                <span class="name">名称</span>
+                <span class="moneys">交易类型</span>
+                <span class="money">单价</span>
+                <span class="num">交易数目</span>
+                <span class="xj">小计</span>
+                <span class="do">操作</span>
+              </li>
+          
+              <li class="end" id="{$item->id}">
+                <span class="goods">
+                  <a href="{:url($data.module_url)}?id={$item->id}">
+                             <img src="__UPLOADS__/{$item->shop_img}" />
+                            </a>                    
+                </span>
+                <span class="name">
+                  <a href="{:url($data.module_url)}?id={$item->id}" >{$item->shop_name}</a>
+                </span>
+                <span class="moneys">￥{$item->shop_price}</span>
+                <span class="money"><span class="color">￥<b>{$item->shop_price}</b></span></span>
+                <span class="num">        
+                  <dl class="add">          
+                  <dd><input type="type" val="{$item->id}" onkeyup="value=value.replace(/\D/g,'')" value="{$item->buynum}" class="amount" /></dd>
+                    <dd>
+                      <a href="JavaScript:;" val="{$item->id}" class="jia"></a>
+                      <a href="JavaScript:;" val="{$item->id}" class="jian"></a>
+                    </dd>                        
+                  </dl>
+                            <p class="message"></p>
+                </span>
+                <span  class="xj">{$item->total_price}</span>
+                <span class="do"><a href="javascript:;" onclick="delcart({$item->id})"  class="delgood">删除</a></span> 
+              </li>   
+
+              <li class="ts">
+                <p class="right">金额总计:￥<span id="moenyCount">{$item->total_price}</span></p>
+              </li>
+            </ul>
+          </div>
+          <h5>
+            <a href="{:Url('shop/index')}" id="but_on"></a>
+            <input id="but_ok" type="button" value=""  name="submit"/>
+          </h5>
+        </div>   
+    </div>
+  </div>
+</div>
+<div style="position: relative;top: 10px;">
+{include file="index/footer" /}
+</div>

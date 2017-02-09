@@ -1,0 +1,74 @@
+#user-index{background-color:#f0f0f0;padding-bottom: 55px;}
+#user-index .position, #user-index .position a{color: #777;}
+
+.main{min-height: 500px;min-width: 1025px;}
+.sc-position{width: 100%;min-width: 1025px;;height: 55px;font-size: 12px;line-height: 54px;border-top:1px solid #eee;color: #aaa;}
+.sc-position a{color: #aaa;line-height: 54px;}
+.sc-position a:hover{color: #ddaa52;}
+.wrap{ margin: 0 auto; width:1025px;}
+.bgc-fff{background-color: #fff;}
+
+.user-text{padding:40px 36px;background-color: #fafafa;overflow: hidden;}
+.user-text .pic{position: relative;width: 158px;height: 158px;margin-right: 30px;}
+.user-text .pic a{display: block;}
+.user-text .pic a:hover span{display: block;}
+.user-text .pic span{position: absolute;top:0;left: 0;display: none;width: 158px;height: 158px;text-align: center;line-height: 158px;background-color: rgba(0,0,0,.6);color:#fff;text-decoration: underline;transition: .5s;-webkit-transition:.5s;}
+.user-text .pic img{width: 158px;height: 158px;}
+.fl{float: left;}
+
+.user-id h2{font-size: 20px;font-weight: bold;color: #333;margin-bottom: 10px;}
+.user-id .jb{font-size: 14px;line-height: 24px;min-height: 55px;margin-bottom: 30px;}
+.user-btn{position: relative;padding:92px 63px;background-color:  #fff;overflow: hidden;}
+.user-btn span.icon{position: absolute;top:0;left: 103px;display: inline-block;width:21px ; height: 10px;background:url(../images/user-btn-icon.png) no-repeat;}
+.user-btn li{float: left;padding-left: 134px;height: 84px;padding-top: 30px;color: #555;width: 165px;}
+.user-btn li a{line-height: 28px;font-size: 15px;}
+.user-btn .icon1{background: url(../images/user-icon1.png) 0  center no-repeat;padding-top: 20px;height: 94px;}
+.user-btn .icon2{background: url(../images/user-icon2.png) 0  center no-repeat;}
+.user-btn .icon3{background: url(../images/user-icon3.png) 0  center no-repeat;}
+
+/*签到*/
+.user-id{height: 158px;overflow: hidden;}
+.sign{padding:0 10px;line-height: 34px;font-size: 20px;color:#777;border:1px solid #f60;float: left;}
+.user-id a{display: inline-block;padding:0 20px;font-size: 16px;line-height: 36px;font-weight: bold;color:#fff;background-color: #f60;}
+.user-id span{color: #f60;}
+
+.person-data{padding-bottom: 55px;}
+.person-content{padding:40px;width: 945px;overflow: hidden;height: 445px;}
+.bgc-eee{background-color: #eee;}
+/*.person-left{margin-right: 200px;}*/
+.person-left ul li{width: 146px;padding-left: 28px;border-bottom:1px solid #eee;padding-bottom: 20px;padding-top: 20px;}
+.person-left ul li a{line-height: 35px;font-size: 14px;}
+.person-left ul li a.on{color: #48b5dd;font-weight: bold;text-decoration: underline;}
+
+.person-detial-right{padding-left: 375px;}
+.person-detial-right input[type='radio']{width: 20px;display: inline-block;margin-bottom: 0;margin-right: 5px; }
+.person-detial-right select{height:42px;padding:0 20px;width:292px;margin-bottom:10px;line-height: 42px;color: #aaa;border:1px solid #ddd;}
+.person-detial-right p:nth-child(2){margin-bottom: 10px;}
+.person-detial-right p:nth-child(2) label.fleft{line-height: 19px;}
+.person-detial-right label{width: 110px;display: inline-block;line-height: 44px;float: left;}
+
+form.logform a.close{position: absolute;right: 10px;top:10px;}
+form.logform a.close img{width: 20px;height: 20px;}
+#resetpwd {position: relative;left: -65px;top: 35px;}
+#resetpwd input[type='text']{float: left;}
+#addperson {position: relative;left: -65px;}
+#addperson input[type='text']{float: left;}
+.resign, .login{width:100%;min-width:1000px;min-height: 450px;overflow: hidden;padding-top:60px;padding-bottom: 60px;text-align: center;background-color: #f0f0f0;}
+.resign form, .login form{position:relative;padding:35px 230px 50px;background-color: #fff;display: inline-block;}
+.login form{padding:35px 230px 90px;}
+form.logform  h2{height: 64px;padding-left: 115px;margin-bottom: 30px;text-align: center;font-size: 20px;line-height: 64px;color:#6a4a1a;background: url(../images/member.png) 45px center no-repeat;}
+form.logform   input {margin-bottom:15px;display: inline-block;width: 255px;padding:0 20px;font-family:'Microsoft YaHei';font-size: 12px;line-height: 42px;border:1px solid #ddd;color: #aaa;}
+#regUser input#btnResign, #btnSignCheck,#btnSignCheck1{margin-top:10px;margin-bottom: 20px;display: block;width: 297px;font-size: 18px;line-height: 44px;color: #fff;background-color: #d08610;border:none;cursor: pointer;transition: .5s ease-in-out ;}
+#regUser input#btnResign:hover, #btnSignCheck:hover, #btnSignCheck1:hover{background-color: #f0a836; }
+form.logform input#vdimgck{width: 115px;margin-right: 15px;float: left;}
+form.logform img{width: 125px;height: 44px;vertical-align: top}
+.txtPassword{background: url(../images/pwd.jpg) 20px center no-repeat; }
+.userpwdok{background: url(../images/repwd.jpg) 20px center no-repeat; }
+#btnadd{position: relative;left:-83px;width: 385px;font-size: 18px;color: #fff;background-color: #d08610;border:none;cursor: pointer;}
+#btnResign{width: 299px;font-size: 18px;color: #fff;background-color: #d08610;border:none;cursor: pointer;}
+#_userpwdok,#_userpwdok2{display: inline-block;line-height: 44px;color: #aaa;margin-left: 10px;}
+
+.person-left ul li a.on{color: #48b5dd;font-weight: bold;text-decoration: underline;}
+.span{font-size: 18px;color: #ADADAD;position: relative;left: -380px;top: 11px;}
+.trsex{position: relative;top: -20px;}
+.spansex{font-size: 18px;color: #ADADAD;position: relative;left: -83px;top: 1px;}

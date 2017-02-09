@@ -1,0 +1,67 @@
+﻿{include file="index/header" /}
+
+<div class="main sc-pro-list">
+  <div class="sc-position">
+    <div class="wrap" style="position: relative;left: 5px;">
+    当前位置 : <a href="{:Url('index/')}" target="_parent">首页</a> &gt; <a href="{:Url('shop/index')}" target="_parent">商城</a> &gt; <a href="{:Url('shop/wangluo')}" target="_parent">网络游戏</a>
+    </div>
+  </div>
+  <div class="wrap sc-pro-box">
+    <div class="sc-pro-tit" >
+      <ul>
+        <li class="on">
+          <a href="{:Url('shop/wangluo')}" target="_self"> 
+            <i class="hover-icon"></i>
+            <span></span>
+            <p>网络游戏</p>
+          </a>
+        </li>
+        <li>
+          <a href="{:Url('shop/shouji')}" target="_self">
+            <i class="hover-icon"></i>
+            <span></span>
+            <p>手机游戏</p>
+          </a>
+        </li>
+        <li>
+          <a href="{:Url('shop/wangye')}" target="_self">
+            <i class="hover-icon"></i>
+            <span></span>
+            <p>网页游戏</p>
+          </a>
+        </li>
+        <li>
+          <a href="{:Url('shop/qipai')}" target="_self">
+            <i class="hover-icon"></i>
+            <span></span>
+            <p>棋牌游戏</p>
+          </a>
+        </li>         
+      </ul>
+    </div>
+    <div class="sc-pro-list index-pro-list">
+    <h3 class="tit">商品列表</h3>
+      <ul>
+        {volist name='list' id='vo' offset='' length=''}
+        <li>
+            <a href="#" target="_self" id="{$vo.id}">
+              <h2>{$vo.shop_name}</h2>
+              <div class="index-hotpro-img"><span><img class="hotpro-img" src="__UPLOADS__/{$vo.shop_img}" ></span></div>
+              <div class="index-hotpro-text">
+                <p>{$vo.shop_area}</p>
+                <p>{$vo.shop_jinbiprice}</p>
+                <p>特价：<span class="price">¥ {$vo.shop_price}</span></p>
+              </div>
+              <span class="btn-buy">立即抢</span>
+            </a>
+        </li>
+        {/volist}                     
+      </ul>
+    </div>
+    <div class="text-center">{$list->render()}</div>
+  </div>
+</div>
+
+<div style="position: relative;top: 10px;">
+{include file="index/footer" /}
+</div>

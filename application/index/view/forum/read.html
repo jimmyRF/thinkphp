@@ -1,0 +1,45 @@
+{include file="index/header" /}
+
+<section id="content">
+    <div class="sc-position">
+    <div class="wrap" style="position: relative;left: -835px;">
+    当前位置 : <a href="{:Url('index/')}" target="_parent">首页</a> &gt; <a href="{:Url('forum/index')}" target="_parent">论坛</a> &gt; <a href="#" target="_parent">讨论区</a>
+    </div>
+    </div>
+    <div style="position: relative;left: 105px;">发帖</div>   
+  <div>
+  <div class="category_101">
+    <p style="position: relative;left: 10px;">全部主题</p>
+  </div>
+  <div class="category_5050">
+    <table  class="fl_tb5">
+      <tbody>        
+        {if($list)}
+            {foreach $list as $item)}
+            <tr>
+            <table  class="fl_tb6">
+            <tr>
+              <td width="5%"><img class="tb5_img" src="__IMAGE__/folder_new.gif" align="left" alt=""></td>
+              <td width="55%">{$item->forum_title}</td>
+              <td width="20%">
+              <div class="small">{$item->forum_author}</div>
+              <div class="smalltime">{$item->create_time}</div>
+              </td>
+              <td width="10%"><div class="smallreply">{$item->forum_reply}</div></td>
+              <td width="10%"><div class="smalltime">{$item->update_time}</div></td>
+
+            </tr> 
+            </table>        
+            </tr>           
+            {/foreach}
+        {/if}
+      </tbody>
+    </table>
+  </div>
+</div>
+</section>
+<!--/ CONTENT -->
+
+<div style="position: relative;top: 53px;">
+{include file="index/footer" /}
+</div>
